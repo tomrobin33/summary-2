@@ -2,4 +2,5 @@ requests
 python-pptx
 python-docx
 pandas
-openpyxl 
+openpyxl
+lxml 
