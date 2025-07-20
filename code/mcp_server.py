@@ -1,3 +1,14 @@
+try:
+    import requests
+    import pandas
+    import pptx
+    import docx
+    import lxml
+    import PIL
+    print("所有依赖导入成功")
+except Exception as e:
+    print("依赖导入失败:", e)
+    import sys; sys.exit(1)
 import sys
 import json
 from file_parser import parse_file
